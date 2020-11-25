@@ -21,6 +21,7 @@ def abrirArchivo():
     fichero = filedialog.askopenfilename(title='Abrir documento',filetypes=(('Documentos de texto','*.txt'),('Todos los archivos','*.*')))
     fichero = open(fichero,'r')
     doc = fichero.read()
+    bloctexto.delete(1.0,END)
     bloctexto.insert(END,doc)
     fichero.close()
 
