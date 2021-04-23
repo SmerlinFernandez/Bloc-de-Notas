@@ -9,7 +9,7 @@ root.title('Bloc de notas')
 root.iconbitmap("icono.ico")
 
 def acercaDe():
-    messagebox.showinfo('Acerca de','Bloc de notas. Version 0.1')
+    messagebox.showinfo('Acerca de','Bloc de notas  Version 0.1')
 
 def salir():
     value = messagebox.askquestion('Salir?','Esta seguro de que desea salir?')
